@@ -24,7 +24,6 @@ describe("Opting in to Type Checking", () => {
         let age: number;
         age = 13;
 
-
         // 3 Hours later
         // @ts-expect-error
         age = 'Old';
@@ -34,5 +33,6 @@ describe("Opting in to Type Checking", () => {
         let age: number | string = 13;
 
         age = "old"; // NO ERROR!
+    
     });
 });
