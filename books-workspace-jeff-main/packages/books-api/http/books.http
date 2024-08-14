@@ -1,0 +1,20 @@
+POST http://localhost:3000/api/books
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "year": 1925
+}
+
+###
+
+GET http://localhost:3000/api/books
+Accept: application/json
+
+
+###
+GET http://localhost:3000/api/books/15829dff-0afc-4fc2-8ca9-c7f16a5b1df0
+Accept: application/json
+
